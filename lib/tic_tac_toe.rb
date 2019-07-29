@@ -110,6 +110,7 @@ class TicTacToe
   
   def play 
     input = gets.chomp
+    over?
   end
   
   
