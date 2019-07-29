@@ -87,7 +87,6 @@ class TicTacToe
   end
   
   def full
-    @board.each do |blank|
       if turn_count == 9
         true 
       else 
