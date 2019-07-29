@@ -48,7 +48,7 @@ class TicTacToe
   end
   
   def turn_count
-    position_taken?(index).count
+    @board.count
   end
   
 end
