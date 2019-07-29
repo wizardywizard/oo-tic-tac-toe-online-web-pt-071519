@@ -50,8 +50,10 @@ class TicTacToe
   end
   
   def turn_count
+    counter = 0
     @board.each do |index|
       if index == "O"
+        counter += 1
       binding.pry
     end
   end
