@@ -1,3 +1,5 @@
+require "pry"
+
 class TicTacToe
   
   def initialize(board = nil)
@@ -49,7 +51,7 @@ class TicTacToe
   
   def turn_count
     @board.each do |index|
-      
+      binding.pry
   end
   
 end
