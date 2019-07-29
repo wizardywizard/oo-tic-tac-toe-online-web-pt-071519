@@ -28,6 +28,7 @@ class TicTacToe
   end
   
   def move
+    
   end
   
 end
