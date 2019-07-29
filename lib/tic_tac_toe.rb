@@ -74,7 +74,7 @@ class TicTacToe
     if valid_move(user_input) 
       move(user_input,current_player)
     else 
-      
+      puts"Invalid"
       
     end
   end
