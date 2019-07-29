@@ -87,7 +87,9 @@ class TicTacToe
   end
   
   def full
-    
+    @board.each do |blank|
+      
+    end
   end
   
 end
