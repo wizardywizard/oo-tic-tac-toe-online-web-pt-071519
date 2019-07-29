@@ -95,7 +95,9 @@ class TicTacToe
   end
   
   def draw?
-    
+    if full? 
+      
+    end
   end
   
   
