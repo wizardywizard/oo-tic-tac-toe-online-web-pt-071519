@@ -52,6 +52,7 @@ class TicTacToe
   def turn_count
     @board.each do |index|
       binding.pry
+    end
   end
   
 end
