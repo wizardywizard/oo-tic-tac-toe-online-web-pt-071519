@@ -54,10 +54,13 @@ class TicTacToe
     @board.each do |index|
       if index == "O" || index == "X"
         counter += 1 
-     # binding.pry
      end
     end
     counter
+  end
+  
+  def current_player
+    
   end
   
 end
