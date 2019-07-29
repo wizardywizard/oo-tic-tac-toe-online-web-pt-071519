@@ -28,8 +28,7 @@ class TicTacToe
   end
   
   def move(index,token)
-    player_1 = "X"
-    player_2 = "O"
+    
   end
   
 end
