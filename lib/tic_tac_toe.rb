@@ -102,7 +102,7 @@ class TicTacToe
     full? || won?
   end
   
-  def winner?
+  def winner
     if won?
        won?
     else 
