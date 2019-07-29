@@ -68,7 +68,7 @@ class TicTacToe
   end
   
   def turn
-    move(token).gets
+    move.gets
   end
   
 end
