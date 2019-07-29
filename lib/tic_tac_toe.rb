@@ -75,7 +75,7 @@ class TicTacToe
       move(user_input,current_player)
     else 
       puts"Invalid"
-      
+      turn
     end
   end
   
