@@ -69,7 +69,8 @@ class TicTacToe
   
   def turn
     puts "choose 1-9"
-    input = 
+    input = gets.chomp
+    
   end
   
 end
