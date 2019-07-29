@@ -77,6 +77,7 @@ class TicTacToe
       puts"Invalid"
       turn
     end
+    display_board
   end
   
 end
