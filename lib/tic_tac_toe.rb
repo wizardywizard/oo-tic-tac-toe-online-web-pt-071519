@@ -42,7 +42,7 @@ class TicTacToe
   def valid_move?(index)
     if position_taken?(index) == true
       false
-    elsif @board[index] > 9
+    elsif move > 9
       false
     else 
       true
