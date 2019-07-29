@@ -68,7 +68,7 @@ class TicTacToe
   end
   
   def turn(index)
-    move 
+    
   end
   
 end
