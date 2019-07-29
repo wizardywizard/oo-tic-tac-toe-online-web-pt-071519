@@ -67,8 +67,8 @@ class TicTacToe
     end
   end
   
-  def turn(index)
-    @board.gets(index)
+  def turn
+    @board.gets
   end
   
 end
