@@ -39,7 +39,7 @@ class TicTacToe
     end
   end
   
-  def valid_move?(index)
+  def valid_move?(index, token)
     if position_taken?(index) == true
       false
     elsif move(index, token) > 9
