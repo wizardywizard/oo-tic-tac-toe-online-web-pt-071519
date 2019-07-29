@@ -82,7 +82,7 @@ class TicTacToe
   
   def won?
     WIN_COMBINATIONS.detect do |win|
-      
+      binding.pry
     end
   end
   
