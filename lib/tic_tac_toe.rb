@@ -110,7 +110,7 @@ class TicTacToe
   
   def play 
     input = gets.chomp
-    over?()
+    over?(game)
   end
   
   
