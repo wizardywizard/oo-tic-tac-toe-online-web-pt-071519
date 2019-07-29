@@ -68,7 +68,7 @@ class TicTacToe
   end
   
   def turn
-    
+    @board.gets(token)
   end
   
 end
