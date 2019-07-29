@@ -56,6 +56,7 @@ class TicTacToe
         counter += 1 
      # binding.pry
     end
+    counter
   end
   
 end
