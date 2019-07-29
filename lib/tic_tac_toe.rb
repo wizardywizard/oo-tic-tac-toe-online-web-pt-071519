@@ -68,7 +68,7 @@ class TicTacToe
   end
   
   def turn
-    move.gets
+    @board.gets
   end
   
 end
