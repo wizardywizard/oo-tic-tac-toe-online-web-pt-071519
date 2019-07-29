@@ -68,7 +68,8 @@ class TicTacToe
   end
   
   def turn
-    @board.gets
+    puts "choose 1-9"
+    
   end
   
 end
