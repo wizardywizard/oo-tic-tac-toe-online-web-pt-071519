@@ -105,6 +105,9 @@ class TicTacToe
   def winner?
     if won?
       puts "X"
+    else 
+      "O"
+    end
   end
   
   
