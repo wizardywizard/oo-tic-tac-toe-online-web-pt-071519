@@ -72,6 +72,7 @@ class TicTacToe
     input = gets.chomp
     user_input = input_to_index(input)
     
+    
   end
   
 end
