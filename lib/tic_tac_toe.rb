@@ -55,6 +55,7 @@ class TicTacToe
       if index == "O" || index == "X"
         counter += 1 
      # binding.pry
+     end
     end
     counter
   end
