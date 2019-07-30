@@ -112,8 +112,9 @@ class TicTacToe
     #input = gets.chomp
    while !over?
      turn
-     if draw?
+      if draw?
      puts "Cat's Game!"
+      end
    end
   end
   
