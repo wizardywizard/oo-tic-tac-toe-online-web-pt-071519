@@ -111,7 +111,7 @@ class TicTacToe
   def play 
     input = gets.chomp
    while !over?
-   turn
+     turn
    end
   end
   
