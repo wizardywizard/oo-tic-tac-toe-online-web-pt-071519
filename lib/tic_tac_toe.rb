@@ -112,8 +112,9 @@ class TicTacToe
     #input = gets.chomp
    while !over?
      turn
-     
    end
+   if draw?
+     
   end
   
   
