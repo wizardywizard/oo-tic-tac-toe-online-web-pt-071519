@@ -113,9 +113,6 @@ class TicTacToe
    while !over?
    #binding.pry
      turn
-      if draw?
-     puts "Cat's Game!"
-      end
    end
   end
   
