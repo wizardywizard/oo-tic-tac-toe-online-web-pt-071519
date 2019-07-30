@@ -111,7 +111,7 @@ class TicTacToe
   def play 
     #input = gets.chomp
    while !over?
-   binding.pry
+   #binding.pry
      turn
       if draw?
      puts "Cat's Game!"
