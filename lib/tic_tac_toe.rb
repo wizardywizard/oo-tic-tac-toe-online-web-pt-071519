@@ -113,6 +113,7 @@ class TicTacToe
    while !over?
      turn
      draw?
+     puts "Cat's Game!"
    end
   end
   
